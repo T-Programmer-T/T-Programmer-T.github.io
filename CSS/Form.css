@@ -1,0 +1,25 @@
+div.Form img {
+    width:100% ;height:80%;position:absolute;
+	top:0;left:0;right:100;bottom:100;z-index:-1;
+}
+#Contact_Form input {
+    border: 0;
+    BACKGROUND-COLOR: transparent;
+    BORDER-BOTTOM: #ffffff 1px solid;
+    
+    COLOR: #ffffff;
+    HEIGHT: 20px;
+    font-size: 12pt
+}
+#Send input {
+    border: 0;
+    BACKGROUND-COLOR: transparent;
+    
+    
+    COLOR: #ffffff;
+    HEIGHT: 18px;
+    font-size: 12pt
+}
+::placeholder { 
+  color:white
+}
