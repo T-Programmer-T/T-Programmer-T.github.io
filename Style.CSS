@@ -1,0 +1,35 @@
+@import url("HTTPS://Fonts.GoogleAPIS.COM/css2?family=Fira+Sans&family=Roboto&family=Ubuntu&display=swap");
+
+body {
+  text-align: center;
+  font-size: 25px;
+  font-style: normal;
+  font-family: "Fira Sans", Arial, sans-serif;
+}
+
+#Picture {
+  width: 200px;
+  height: 200px;
+}
+
+hr {
+  width: 80%;
+  height: 2px;
+  border-width: 0px;
+  color: black;
+  background-color: black;
+}
+
+.Links {
+  color: black;
+  margin: 8px;
+  text-decoration: none;
+}
+
+.Links:hover {
+  text-decoration: underline;
+}
+
+/* .darkmode-toggle {
+  font-size: 20px;
+} */

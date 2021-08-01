@@ -1,0 +1,54 @@
+/* html {
+  font-size: 62.5%;
+} */
+
+body {
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#Picture {
+  width: 200px;
+  height: 200px;
+}
+
+hr {
+  width: 80%;
+  height: 2px;
+  border-width: 0px;
+  color: black;
+  background-color: black;
+}
+
+.Links {
+  color: black;
+  margin: 8px;
+  text-decoration: none;
+}
+
+.Links:hover {
+  text-decoration: underline;
+}
+
+.Login {
+  margin: 10px;
+  /* width: 40rem; */
+  height: 50px;
+  font-size: 1.5em;
+  border: 2px solid black;
+  border-radius: 6px;
+  outline-style: none;
+}
+
+#Submit {
+  border: 0px;
+  cursor: pointer;
+  color: white;
+  background-color: deepskyblue;
+}
+
+.darkmode-toggle {
+  font-size: unset;
+}
