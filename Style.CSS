@@ -30,6 +30,13 @@ hr {
   text-decoration: underline;
 }
 
+.Skills {
+  margin: 10px;
+}
+
+.Skills h6 {
+  margin: 0px;
+}
 /* .darkmode-toggle {
   font-size: 20px;
 } */
