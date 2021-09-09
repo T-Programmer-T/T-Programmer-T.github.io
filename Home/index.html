@@ -4,12 +4,50 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="Style.CSS" />
+
+    <noscript>
+      <style>
+        body {
+          background-color: black;
+        }
+        #Main {
+          display: none;
+        }
+        #Alert {
+          top: 50%;
+          left: 50%;
+          color: white;
+          position: absolute;
+          transform: translateX(-50%) translateY(-50%);
+        }
+      </style>
+      <div id="Alert">
+        Sorry! You Are Disabled Javascript Or Your Browser Doesn't Support
+        Javascript. Please Enable It Or Update Your Browser To Continue.
+      </div>
+    </noscript>
+
     <title>Home</title>
   </head>
   <body>
-    <h1>Home</h1>
-    <div>
-      <script src="Auth.JS"></script>
+    <div id="Main">
+      <h1>Home</h1>
+
+      <hr />
+
+      <div class="Main">
+        <h2>Login Successfully!</h2>
+      </div>
+
+      <div>
+        <script src="HTTPS://Code.jQuery.COM/jquery-3.6.0.slim.min.js"></script>
+
+        <script src="/JS/Crypto.JS"></script>
+
+        <script src="Auth.JS"></script>
+      </div>
     </div>
   </body>
 </html>

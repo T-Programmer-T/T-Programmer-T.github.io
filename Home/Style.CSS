@@ -1,0 +1,10 @@
+@import url("HTTPS://Fonts.GoogleAPIS.COM/css?family=Fira+Sans");
+
+body {
+  display: none;
+  text-align: center;
+  background-color: black;
+  font-size: 25px;
+  font-style: normal;
+  font-family: "Fira Sans", Arial, sans-serif;
+}

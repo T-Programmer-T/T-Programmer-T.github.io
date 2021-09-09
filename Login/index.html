@@ -6,68 +6,94 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="stylesheet" href="Style.CSS" />
-    <link rel="icon" href="../IMG/T-programmer-T.PNG" type="image/x-icon" />
+    <link rel="icon" href="/IMG/T-programmer-T.PNG" type="image/x-icon" />
     <link
       rel="shortcut icon"
-      href="../IMG/T-Programmer-T.PNG"
+      href="/IMG/T-Programmer-T.PNG"
       type="image/x-icon"
     />
+
+    <noscript>
+      <style>
+        body {
+          background-color: black;
+        }
+        #Main {
+          display: none;
+        }
+        #Alert {
+          top: 50%;
+          left: 50%;
+          color: white;
+          position: absolute;
+          transform: translateX(-50%) translateY(-50%);
+        }
+      </style>
+      <div id="Alert">
+        Sorry! You Are Disabled Javascript Or Your Browser Doesn't Support
+        Javascript. Please Enable It Or Update Your Browser To Continue.
+      </div>
+    </noscript>
 
     <title>Login</title>
   </head>
 
   <body>
-    <img src="../IMG/T-Programmer-T.PNG" alt="T-Programmer-T" id="Picture" />
+    <div id="Main">
+      <img src="/IMG/T-Programmer-T.PNG" alt="T-Programmer-T" id="Picture" />
 
-    <h1>Login</h1>
+      <h1>Login</h1>
 
-    <hr />
+      <hr />
 
-    <div>
-      <a href="/" class="Links">Home</a>
-      <a href="/Login/" class="Links">Login</a>
-    </div>
-
-    <form action="javascript:Login()" method="post">
-      <div class="Username">
-        <input
-          class="Login"
-          name=""
-          id="Username"
-          type="text"
-          placeholder="Username"
-        />
+      <div>
+        <a href="/" class="Links">Home</a>
+        <a href="/Login/" class="Links">Login</a>
       </div>
 
-      <div class="Password">
-        <input
-          class="Login"
-          name=""
-          id="Password"
-          type="password"
-          placeholder="Password"
-        />
+      <form action="javascript:Login()" method="post">
+        <div class="Username">
+          <input
+            class="Login"
+            name=""
+            id="Username"
+            type="text"
+            placeholder="Username"
+          />
+        </div>
+
+        <div class="Password">
+          <input
+            class="Login"
+            name=""
+            id="Password"
+            type="password"
+            placeholder="Password"
+          />
+        </div>
+
+        <button class="Login darkmode-ignore" id="Submit" type="submit">
+          Login
+        </button>
+      </form>
+
+      <footer>
+        <div id="Copyright">
+          <p>Copyright © 2021 T-Programmer-T. All right reserved.</p>
+        </div>
+      </footer>
+
+      <div class="JS">
+        <script src="HTTPS://CDN.JSDelivr.NET/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+
+        <script src="/JS/Darkmode.JS"></script>
+
+        <script src="HTTPS://Code.jQuery.COM/jquery-3.6.0.slim.min.js"></script>
+
+        <script src="/JS/Crypto.JS"></script>
+
+        <script src="Login.JS"></script>
       </div>
-
-      <button class="Login darkmode-ignore" id="Submit" type="submit">
-        Login
-      </button>
-    </form>
-
-    <footer>
-      <div id="Copyright">
-        <p>Copyright © 2021 T-Programmer-T. All right reserved.</p>
-      </div>
-    </footer>
-
-    <div class="JS">
-      <script src="HTTPS://CDN.JSDelivr.NET/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
-
-      <script src="../JS/Darkmode.JS"></script>
-
-      <script src="HTTPS://Code.jQuery.COM/jquery-3.6.0.slim.min.js"></script>
-
-      <script src="Login.JS"></script>
     </div>
   </body>
 </html>
